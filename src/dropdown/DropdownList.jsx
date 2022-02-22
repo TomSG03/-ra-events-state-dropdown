@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import DropdownItem from './DropdownItem';
 
-function DropdownList() {
+function DropdownList({ handlerBtn }) {
   const downList = [
     { id: '1', value: 'Profile Information' },
     { id: '2', value: 'Change Password' },
@@ -14,11 +14,12 @@ function DropdownList() {
 
   function onSelect(event) {
     setSelected(event.target.dataset.id);
+    handlerBtn();
   }
 
   return (
     <ul data-id="dropdown" className="dropdown">
-      {downList.map((item) => <DropdownItem key={item.id} item={item} onClick={onSelect} selected={selected}/>)} 
+      {downList.map((item) => <DropdownItem key={item.id} item={item} handler={onSelect} selected={selected}/>)} 
     </ul>
   )
 }

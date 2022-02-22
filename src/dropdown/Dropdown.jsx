@@ -15,7 +15,7 @@ function Dropdown() {
           <span>Account Settings</span>
           <i className="material-icons">public</i>
         </button>
-        <DropdownList />
+        <DropdownList handlerBtn={toggleOpen} />
       </div>
     </div>
   )
