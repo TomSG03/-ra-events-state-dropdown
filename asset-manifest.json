@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ra-events-state-dropdown/static/css/main.38f513d5.css",
-    "main.js": "/ra-events-state-dropdown/static/js/main.99c23998.js",
+    "main.js": "/ra-events-state-dropdown/static/js/main.d2a64a20.js",
     "static/js/787.04097c43.chunk.js": "/ra-events-state-dropdown/static/js/787.04097c43.chunk.js",
     "index.html": "/ra-events-state-dropdown/index.html",
     "main.38f513d5.css.map": "/ra-events-state-dropdown/static/css/main.38f513d5.css.map",
-    "main.99c23998.js.map": "/ra-events-state-dropdown/static/js/main.99c23998.js.map",
+    "main.d2a64a20.js.map": "/ra-events-state-dropdown/static/js/main.d2a64a20.js.map",
     "787.04097c43.chunk.js.map": "/ra-events-state-dropdown/static/js/787.04097c43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38f513d5.css",
-    "static/js/main.99c23998.js"
+    "static/js/main.d2a64a20.js"
   ]
 }
