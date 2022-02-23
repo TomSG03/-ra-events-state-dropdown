@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import DropdownItem from './DropdownItem';
 
-function DropdownList({ handlerBtn }) {
+function DropdownList() {
   const downList = [
     { id: '1', value: 'Profile Information' },
     { id: '2', value: 'Change Password' },
@@ -14,7 +14,6 @@ function DropdownList({ handlerBtn }) {
 
   function onSelect(event) {
     setSelected(event.target.dataset.id);
-    handlerBtn();
   }
 
   return (

@@ -1,7 +1,8 @@
 import React from 'react'
 
 function DropdownItem({ item, handler, selected }) {
-  return <li onClick={handler} className={selected === item.id ? 'active' : ''}><a href="#/" data-id={item.id}>{item.value}</a></li>
+  const active = selected === item.id ? {color: '#5380F7'} : {color: ''};
+  return <li onClick={handler} style={active}><a href="#/" data-id={item.id}>{item.value}</a></li>
 }
 
 export default DropdownItem
